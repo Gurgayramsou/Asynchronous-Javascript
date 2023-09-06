@@ -4,8 +4,10 @@
 
 // By XMLHttpRequest()
 
-`const request = XMLHttpRequest();`
+const request = XMLHttpRequest();
 
-`request.open(’GET’, ‘url’)`
+request.open('GET', 'url')
 
-`request.send()`  - this should be inside the event listener in call back function
+request.send()
+// - this should be inside the event listener in call back function
+
