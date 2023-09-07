@@ -11,12 +11,12 @@
 // request.send()
 // - this should be inside the event listener in call back function
 
-const posts = [
+export const posts = [
     {title:'Post One',body :'This is post one'},
     {title:'Post Two',body :'This is post Tow'},
 ]
 
-function getPosts(){
+export function getPosts(){
     setTimeout(()=>{
         let output = '';
         posts.forEach((post,index) => {
